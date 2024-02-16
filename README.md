@@ -11,5 +11,10 @@
 1. This repo is **in progress**.
 2. This repo will be built as a tauri app and then be **merged back** to Nemassler.
 
+# Features
+- Pure Rust implementation, as a library.
+- Write `songcover` into mp3 files instead of exporting.
+- 
+
 # Original Repo
 [Nemassler](https://github.com/Vincent-the-gamer/Nemassler)

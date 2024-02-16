@@ -1,7 +1,14 @@
 [package]
 name = "nemassler-rs-core"
+description = "A Rust rewrite of core functions from Nemassler."
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+base64 = "0.21.7"
 byteorder = "1.5.0"
+id3 = "1.12.0"
+json = "0.12.4"
+metaflac = "0.2.5"
+rust-crypto = "0.2.36"
+tempfile = "3.10.0"

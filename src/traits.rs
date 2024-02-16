@@ -8,5 +8,5 @@ pub trait Filter {
 }
 
 pub trait Converter: Filter + Ensure {
-    fn ncm2mp3(ncm_dir: &str, mp3_out_dir: &str, songcover_out_dir: &str) -> ();
+    fn ncm2mp3(ncm_dir: &str, out_dir: &str) -> ();
 }
