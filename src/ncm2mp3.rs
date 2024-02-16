@@ -108,7 +108,8 @@ pub fn process_file(
         for i in 0..ulen {
             modify_data.as_mut_slice()[i as usize] ^= 0x63;
         }
-        let data = base64::decode(&modify_data[22..]).expect("error decoding modify_data:");
+        let data = base64::Engine::decode(&base64::engine::general_purpose::STANDARD, &modify_data[22..])
+                                                 .expect("error decoding modify_data:");
         let dedata = decrypt(&data, AES_MODIFY_KEY).expect("error decrypting data:");
 
         music_info =
@@ -224,7 +225,7 @@ pub fn process_file(
                     description: String::new(),
                     data: img_data,
                 };
-                tag.add_picture(picture);
+                tag.add_frame(picture);
             }
             tag.write_to_path(
                 std::path::Path::new(&out_path_string),
