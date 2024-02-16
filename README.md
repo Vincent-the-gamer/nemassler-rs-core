@@ -13,8 +13,7 @@
 
 # Features
 - Pure Rust implementation, as a library.
-- Write `songcover` into mp3 files instead of exporting.
-- 
+- Write `songcover`s into mp3 files instead of exporting them.
 
 # Original Repo
 [Nemassler](https://github.com/Vincent-the-gamer/Nemassler)
