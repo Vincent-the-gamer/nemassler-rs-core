@@ -16,4 +16,4 @@
 - Write `songcover`s into mp3 files instead of exporting them.
 
 # Original Repo
-[Nemassler](https://github.com/Vincent-the-gamer/Nemassler)
+[Nemassler](https://github.com/Vincent-the-gamer/nemassler)
