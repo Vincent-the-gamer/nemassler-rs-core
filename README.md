@@ -4,7 +4,7 @@
 
 <h1 align="center">Nemassler Rust Core</h1>
 <p align="center">
-  A Rust rewrite of core functions from <a href="https://github.com/Vincent-the-gamer/Nemassler" target="_blank">Nemassler</a>.
+  A Rust rewrite of core functions from <a href="https://github.com/Vincent-the-gamer/nemassler" target="_blank">Nemassler</a>.
 </p>
 
 # Notice
