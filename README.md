@@ -7,6 +7,10 @@
   A Rust rewrite of core functions from <a href="https://github.com/Vincent-the-gamer/nemassler" target="_blank">Nemassler</a>.
 </p>
 
+>[!NOTE]
+> This repo has `merged` to [Nemahaizai](https://github.com/Vincent-the-gamer/nemahaizai), and this will be finally merged back to [Nemassler](https://github.com/Vincent-the-gamer/nemassler). Thus, this repo is archived.
+
+
 # Notice
 1. This repo is **in progress**.
 2. This repo will be built as a tauri app and then be **merged back** to Nemassler.
